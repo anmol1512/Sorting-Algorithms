@@ -33,7 +33,7 @@ swap(&a[l],&a[j]);
 return j;
 }
 int main(){
-	int a[N]={6,5,1,2,4,3,-1};
+	int a[N]={8,4,2,1,7,3};
 	quicksort(a,0,6);
 	for(int i=0;i<N-1;i++)
 	printf("%d ",a[i]);
